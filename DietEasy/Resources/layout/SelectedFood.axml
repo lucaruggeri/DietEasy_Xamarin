@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_orange_light">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="52.3dp"
+        android:id="@+id/space1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:layout_width="375.1dp"
+            android:layout_height="50dp"
+            android:textColor="@android:color/black"
+            android:textSize="25dip"
+            android:id="@+id/txtName"
+            android:text="Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Calories"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/black"
+            android:textSize="20dip" />
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="35dp"
+            android:id="@+id/txtCalories"
+            android:textColor="@android:color/black"
+            android:textSize="20dip"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Carbs"
+            android:layout_width="120.2dp"
+            android:layout_height="35dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/black"
+            android:textSize="20dip" />
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="35dp"
+            android:id="@+id/txtCarbs"
+            android:textColor="@android:color/black"
+            android:textSize="20dip"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Fats"
+            android:layout_width="120.2dp"
+            android:layout_height="35dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/black"
+            android:textSize="20dip" />
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="35dp"
+            android:id="@+id/txtFats"
+            android:textColor="@android:color/black"
+            android:textSize="20dip"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Proteins"
+            android:layout_width="120.2dp"
+            android:layout_height="35dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/black"
+            android:textSize="20dip" />
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="35dp"
+            android:id="@+id/txtProteins"
+            android:textColor="@android:color/black"
+            android:textSize="20dip"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="52.3dp"
+        android:id="@+id/space1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/linearLayout2">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/space2" />
+        <Space
+            android:layout_width="58.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space3" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="53.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnLeft" />
+        <EditText
+            android:layout_width="98.5dp"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="20dip"
+            android:id="@+id/txtQuantity"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:text="gr"
+            android:layout_width="38.1dp"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="20dip"
+            android:id="@+id/txtUnit" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="53.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnRight" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+    <Button
+        android:text="Add to your daily food"
+        android:layout_width="364.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddFood"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white" />
+</LinearLayout>
